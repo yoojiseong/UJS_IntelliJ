@@ -1,4 +1,4 @@
-package com.busanit501.dao;
+package com.busanit501.dao.dao;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

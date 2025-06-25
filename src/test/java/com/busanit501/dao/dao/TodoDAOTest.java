@@ -1,4 +1,4 @@
-package com.busanit501.dao;
+package com.busanit501.dao.dao;
 
 import com.example.hello_project._3jdbc.domain.TodoVO;
 import com.example.hello_project._3jdbc.dao.TodoDAO;
