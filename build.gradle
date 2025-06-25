@@ -52,6 +52,16 @@ dependencies {
     // test, 단위 테스트에서도, 사용하기.
     testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.38'
     testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.38'
+
+    //4
+    // Hikari CP, 디비 연결시 사용하는 도구
+    // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+    implementation 'com.zaxxer:HikariCP:6.3.0'
+
+    //5
+    // ModelMApper, DTO - Vo 변환해주는 도구
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
+    implementation 'org.modelmapper:modelmapper:3.2.4'
 }
 
 test {
